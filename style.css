@@ -113,7 +113,7 @@ h3 {
   margin: 2em;
   padding: 0.2em;
 }
-/* .LCS {
+.LCS {
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -123,4 +123,4 @@ h3 {
   padding: 0.2em;
   width: 1.5vw;
   height: 1.5vw;
-} */
+}
