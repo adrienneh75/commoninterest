@@ -50,11 +50,11 @@ function handleData(allArtists) {
         const container = document.querySelector(".post");
         container.appendChild(clone);
     });
-
+}
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
-    if(!menuOpen) {
+    if (!menuOpen) {
         menuBtn.classList.add('open');
         menuOpen = true;
     } else {
@@ -62,8 +62,10 @@ menuBtn.addEventListener('click', () => {
         menuOpen = false;
     }
     menuOpen.classList.toggle('menubtn.open');
-}); 
+});
 
-function (menuOpen)
+// function (menuOpen) {
+
+// } 
 
 
